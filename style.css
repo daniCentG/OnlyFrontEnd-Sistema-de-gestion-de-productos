@@ -476,7 +476,8 @@ footer p{
 
 @media (max-width: 615px){
   .logout-button{
-    right: 13px;
+    right: 25px;
+    font-size: 8px;
   }
 }
 
@@ -511,13 +512,19 @@ footer p{
 }
 @media (max-width: 576px){
   .logout-button{
-    right: 10px;
+    right: 20px;
   }
 }
 
-@media (max-width: 532px){
+@media (max-width: 555px){
   h1{
     font-size: 1.1rem !important;
+  }
+}
+
+@media (max-width: 533px){
+  h1{
+    font-size: 1rem !important;
   }
 }
 
