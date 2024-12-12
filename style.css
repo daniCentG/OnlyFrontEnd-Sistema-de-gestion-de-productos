@@ -1,4 +1,3 @@
-
 /* Estilos Generales */
 body {
   font-family: 'Arial', sans-serif;
@@ -383,19 +382,46 @@ p{
 }
 
 
-footer p{
-  font-size: 12px;
-  padding: 25px;
+/* Responsividad */
+
+@media (max-width: 1160px){
+  .logout-button{
+    right: 150px;
+  }
 }
 
-/* Responsividad */
+@media (max-width: 1028px){
+  .logout-button{
+    right: 80px;
+  }
+}
+
+@media (max-width: 920px){
+  .logout-button{
+    right: 70px;
+  }
+
+  h1{
+    font-size: 1rem;
+  }
+}
+@media (max-width: 872px){
+  .logout-button{
+    right: 60px;
+  }
+  h1{
+    font-size: 1.5rem !important;
+  }
+}
+
+
 @media (max-width: 800px) {
   a{
     font-size: 15px;
   }
 
   h1 {
-    font-size: 2rem;
+    font-size: 1rem;
   }
 
   .form-container{
@@ -407,7 +433,7 @@ footer p{
   }
 
   .logout-button {
-    right: 50px;
+    right: 45px;
     width: 6rem;
   }
 
@@ -423,14 +449,24 @@ footer p{
   }
 
   .logout-button {
-    right: 28px;
-    width: 6rem;
+    right: 35px;
   }
 
   th {
     padding: 10px;
     width: 20%;
     font-size: 10px;
+  }
+
+  h1{
+    font-size: 1.3rem !important;
+  }
+
+}
+
+@media (max-width: 648px){
+  .logout-button{
+    right: 10px;
   }
 }
 
@@ -449,7 +485,7 @@ footer p{
   }
 
   h1 {
-    font-size: 1.5rem;
+    font-size: 1.2rem !important;
   }
 
   .menu-btn {
@@ -457,10 +493,28 @@ footer p{
   }
 
   .logout-button {
-    right: 10px;
-    width: 6rem;
+    right: 25px;
+    font-size: 8px;
+    width: 5rem;
   }
 
+}
+@media (max-width: 576px){
+  .logout-button{
+    right: 10px;
+  }
+}
+
+@media (max-width: 532px){
+  h1{
+    font-size: 1.1rem !important;
+  }
+}
+
+@media (max-width: 508px){
+  h1{
+  margin-right: 15px !important;
+  }
 }
 
 @media (max-width: 500px){
@@ -470,8 +524,7 @@ footer p{
   }
 
   .logout-button {
-    right: 18px;
-    width: 6rem;
+    right: 15px;
   }
 
   th {
@@ -479,6 +532,11 @@ footer p{
     width: 20%;
     font-size: 10px;
   }
+
+  h1{
+    font-size: 1rem !important;
+  }
+
 }
 
 @media (max-width: 480px) {
@@ -493,4 +551,23 @@ footer p{
     padding: 20px;/* Ajusta el padding del contenedor */
   }
 
+  .form-container input{
+    margin-left: 150px !important;
+  }
+
+  .form-container label{
+    width: 50%;
+  }
+  
+  select{
+    margin-left: 150px !important;    
+  }
+
+  .content-container select{
+    margin-left: 190px !important;
+  }
+
+  .content-container input{
+    margin-left: 175px !important;
+  }
 }
