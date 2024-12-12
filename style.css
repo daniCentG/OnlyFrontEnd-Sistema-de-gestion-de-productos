@@ -381,6 +381,10 @@ p{
   transform: scale(0.95); /* Efecto de reducción al hacer clic */
 }
 
+footer p{
+  font-size: 12px;
+  padding: 25px;
+}
 
 /* Responsividad */
 
@@ -466,7 +470,13 @@ p{
 
 @media (max-width: 648px){
   .logout-button{
-    right: 10px;
+    right: 30px;
+  }
+}
+
+@media (max-width: 615px){
+  .logout-button{
+    right: 13px;
   }
 }
 
