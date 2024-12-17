@@ -565,7 +565,11 @@ footer p{
   }
 
   .menu-container {
-    padding: 20px;/* Ajusta el padding del contenedor */
+    padding: 15px;/* Ajusta el padding del contenedor */
+  }
+
+  .menu-container p{
+    font-size: 25px;
   }
 
   .form-container input{
