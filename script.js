@@ -9,10 +9,6 @@ function manejarLogout() {
         });
     }
 }
-function iniciar() {
-    // Inicializar la lógica de generar orden de compra
-    manejarLogout();
-}
 
 // Llamar a la función para inicializar el script cuando el DOM esté completamente cargado
-document.addEventListener('DOMContentLoaded', iniciar);
+document.addEventListener('DOMContentLoaded', manejarLogout);
